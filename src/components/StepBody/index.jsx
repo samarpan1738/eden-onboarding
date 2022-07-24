@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { StepsContext } from "@src/context/stepsContext";
+import { StepsContext } from "@src/context/StepsContext";
 import stepsData from "@src/data/steps";
 function StepBody() {
     const [step, setStep] = useContext(StepsContext);

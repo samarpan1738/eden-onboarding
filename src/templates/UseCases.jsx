@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef } from "react";
 import SubmitButton from "../components/SubmitButton";
-import { StepsContext } from "../context/stepsContext";
+import { StepsContext } from "../context/StepsContext";
 import { UserContext } from "../context/UserContext";
 const useCasesData = [
 	{

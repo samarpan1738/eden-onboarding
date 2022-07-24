@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { StepsContext } from "../../context/stepsContext";
+import { StepsContext } from "../../context/StepsContext";
 import stepsData from "../../data/steps";
 const MAXIMUM_STEPS = stepsData.length;
 

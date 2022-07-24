@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import Logo from "./components/Logo";
 import Stepper from "./components/Stepper";
 import StepBody from "./components/StepBody";
-import { StepsContext } from "./context/stepsContext";
+import { StepsContext } from "./context/StepsContext";
 import stepsData from "@src/data/steps";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 	const stepData = stepsData[step];
 	const StepHeader = stepData.header;
 	return (
-		<div className="flex flex-col items-center justify-center h-screen px-3">
+		<div className="flex flex-col items-center justify-center min-h-screen px-8 py-20">
 			<div className="flex flex-col items-center justify-center w-full h-full">
 				<header className="flex items-center justify-center w-full">
 					<Logo />

@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef } from "react";
-import { StepsContext } from "@src/context/stepsContext";
+import { StepsContext } from "@src/context/StepsContext";
 import TextField from "@src/components/TextField";
 import SubmitButton from "../components/SubmitButton";
 import { UserContext } from "../context/UserContext";
